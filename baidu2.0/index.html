@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{margin: 0;padding: 0;font-size:12px;}
+			body{background: url(img/bg.jpg) no-repeat;background-size: 100%;}
+			.u1 .l1 a,.l2 a{text-decoration: underline;color: white;}
+			.u1 .l3 a{text-decoration:none;}
+			#dh{ width: 100%;height:35px; background: rgba(0, 0, 0, 0.2);margin: 0 auto;}
+			.u1 li{list-style: none; padding:0 10px 0 10px; line-height: 35px;}
+			.u1 .l1{float: left; }
+			.u1 .l2,.l3{float:right; }
+			.u1 .l3{display: block;background-color:dodgerblue;text-align: center; width: 75px;}
+			.u1 .l3 a{color: white;}
+			.u1 .l3 .u2{display: none;}
+			.l3 .u2 li{margin: 10px 0 10px;}
+			.u1 .l3:hover{background-color:ghostwhite;}
+			.u1 .l3:hover a{color: black;}
+			.u1 .l3:hover .u2{display: block;}
+			
+			#kw{
+    			width:480px;
+    			height:32px;
+   			 	padding:4px 7px;
+    			padding:6px 7px 2px;
+    			font-size: 15px;
+    			border:1px solid #cdcdcd;
+    			border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+    			position: fixed;top:280px;left:680px;
+    			margin: 0 auto;
+}
+			.btn{
+ 				width:100px;
+    			height:42px;
+    			padding:0;
+    			padding-top:2px;
+    			border:0;
+    			font-size: 15px;
+    			cursor:pointer;
+    			position: fixed;top:280px;left:1175px;
+}				
+		</style>
+	</head>
+	<body>
+		<div id="dh">
+			<ul class="u1">
+				<li class="l1"><a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baidutop10&wd=%E5%AE%A3%E5%9F%8E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5&oq=%25E5%2590%2588%25E8%2582%25A5%25E5%25A4%25A9%25E6%25B0%2594%25E9%25A2%2584%25E6%258A%25A5&rsv_pq=a33efc540009ddd2&rsv_t=d95fwHpHdoI3SlvCDqLvlisjiWo3wPQrJ3fPcs3hP5CbVUw%2B8j7i1l%2FKmyE%2Bx7VD2g&rqlang=cn&rsv_enter=1&rsv_sug3=7&rsv_sug1=6&rsv_sug7=100&bs=%E5%90%88%E8%82%A5%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5"><a style="text-decoration: none;">宣城：30℃ </a> <a style="color: green;text-decoration: none;font-weight: bold;">良 58</a></a></li>
+				<li class="l1"><a href="#">换肤</a></li>
+				<li class="l1"><a href="#">消息</a></li>
+				<li class="l3"><a href="#">更多产品</a>
+					<ul class="u2">
+						<li><a href="https://www.nuomi.com/?cid=002540"><img src="img/bdbri.png" /><br>糯米</br></a></li>
+						<li><a href="http://music.baidu.com/"><img src="img/music.png" /></a><br>音乐</br></li>
+						<li><a href="http://image.baidu.com/"><img src="img/image.png" /></a><br>图片</br></li>
+						<li><a href="https://zhidao.baidu.com/"><img src="img/zhidao.png" /><br>知道</br></a></li>
+						<li><a href="https://wenku.baidu.com/"><img src="img/wenku.png" /><br>文库</br></a></li>
+						<li><a href="http://top.baidu.com/"><img src="img/bang.png" /><br>风云榜</br></a></li>
+						<li><a href="http://e.baidu.com/?subsite=ah"><img src="img/tuiguang.png" /><br>百度推广</br></a></li>
+						<li><a href="https://www.baidu.com/more/" style="color: dodgerblue;font-weight: blod;">全部产品</a></li>
+					</ul>
+				</li>
+				<li class="l2"><a href="#">设置</a></li>
+				<li class="l2"><a href="http://i.baidu.com/">亦木零</a></li>
+				<li class="l2"><a href="http://xueshu.baidu.com/">学术</a></li>
+				<li class="l2"><a href="https://tieba.baidu.com/index.html">贴吧</a></li>
+				<li class="l2"><a href="http://v.baidu.com/">视频</a></li>
+				<li class="l2"><a href="http://map.baidu.com/">地图</a></li>
+				<li class="l2"><a href="https://www.hao123.com/">hao123</a></li>
+				<li class="l2"><a href="http://news.baidu.com/">新闻</a></li>
+			</ul>
+		</div>
+		<a href="https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E8%8A%82&oq=%25E5%2585%2583%25E5%25AE%25B5%25E8%258A%2582&tn=SE_pshlcjsy_xef5bmh9"><img src="img/mothera.png" style="position:fixed ;top:82px;left:814px;width: 16%;" /></a>
+		 <input type="text" maxlength="100" id="kw" name="wd" autocomplete="off" value="这是个假百度" style="color: #9A9A9A;">
+		<input class="btn"  onmouseout="this.className='btn'"  type="submit" value="百度一下"/ >
+	</body>
+</html>
